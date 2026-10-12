@@ -1,0 +1,7 @@
+<suite name="AllTests">
+    <test name="MyTests">
+        <classes>
+            <class name="org.udemycourse.testngpractice.MultiTestDependency"/>
+        </classes>
+    </test>
+</suite>

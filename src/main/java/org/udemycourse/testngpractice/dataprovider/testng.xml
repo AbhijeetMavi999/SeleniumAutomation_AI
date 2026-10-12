@@ -1,0 +1,12 @@
+<suite name="AllTests">
+    <test name="MyTests">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="userName" value="abhijeetmavi"></parameter>
+        <parameter name="password" value="pass123"></parameter>
+
+        <classes>
+            <class name="org.udemycourse.testngpractice.dataprovider.DataProviderAnnotation"/>
+        </classes>
+    </test>
+</suite>
