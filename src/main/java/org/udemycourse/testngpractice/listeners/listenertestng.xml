@@ -1,0 +1,11 @@
+<suite name="TestNG Listener Suite">
+    <listeners>
+        <listener class-name="org.udemycourse.testngpractice.listeners.ListenersDemo"/>
+    </listeners>
+
+    <test name="Listener Test Case">
+        <classes>
+            <class name="org.udemycourse.testngpractice.listeners.SampleTestCase"></class>
+        </classes>
+    </test>
+</suite>

@@ -18,6 +18,4 @@ public class DataProviderAnnotation {
                 {100, 123}, {47, 67}, {201, 342}, {214, 234}, {300, 159}
         };
     }
-
-
 }

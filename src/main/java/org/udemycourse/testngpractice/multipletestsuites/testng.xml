@@ -1,0 +1,7 @@
+<suite name="Multiple Test Suites">
+    <suite-files>
+        <suite-file></suite-file>
+        <suite-file></suite-file>
+        <suite-file></suite-file>
+    </suite-files>
+</suite>
