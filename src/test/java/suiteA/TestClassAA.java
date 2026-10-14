@@ -1,8 +1,9 @@
 package suiteA;
 
 import org.testng.annotations.Test;
+import testbase.TestBase;
 
-public class TestClassAA {
+public class TestClassAA extends TestBase {
 
     @Test
     public void testAA() throws InterruptedException {

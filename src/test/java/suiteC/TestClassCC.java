@@ -1,8 +1,9 @@
 package suiteC;
 
 import org.testng.annotations.Test;
+import testbase.TestBase;
 
-public class TestClassCC {
+public class TestClassCC extends TestBase {
 
     @Test
     public void testCC() throws InterruptedException {
