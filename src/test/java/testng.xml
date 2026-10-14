@@ -1,0 +1,12 @@
+<suite name="TestNG Suite">
+    <test name="Test Class A">
+        <classes>
+            <class name="suiteA.TestClassA"/>
+            <class name="suiteA.TestClassAA"/>
+            <class name="suiteB.TestClassB"/>
+            <class name="suiteB.TestClassBB"/>
+            <class name="suiteC.TestClassC"/>
+            <class name="suiteC.TestClassCC"/>
+        </classes>
+    </test>
+</suite>

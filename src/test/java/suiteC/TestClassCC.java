@@ -3,12 +3,13 @@ package suiteC;
 import org.testng.annotations.Test;
 import testbase.TestBase;
 
+import static org.testng.Reporter.log;
+
 public class TestClassCC extends TestBase {
 
     @Test
     public void testCC() throws InterruptedException {
-        System.out.println("Starting TestCC");
-        Thread.sleep(5000);
-        System.out.println("Ending TestCC");
+        log("Starting Test CC");
+        log("Ending Test CC");
     }
 }
