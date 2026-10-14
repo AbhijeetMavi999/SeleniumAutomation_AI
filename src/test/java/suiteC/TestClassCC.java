@@ -8,7 +8,7 @@ import static org.testng.Reporter.log;
 public class TestClassCC extends TestBase {
 
     @Test
-    public void testCC() throws InterruptedException {
+    public void testCC() {
         log("Starting Test CC");
         log("Ending Test CC");
     }

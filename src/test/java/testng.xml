@@ -1,5 +1,5 @@
 <suite name="TestNG Suite">
-    <test name="Test Class A">
+    <test thread-count="6" name="TestClasses">
         <classes>
             <class name="suiteA.TestClassA"/>
             <class name="suiteA.TestClassAA"/>

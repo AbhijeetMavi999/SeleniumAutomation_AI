@@ -24,7 +24,7 @@ public class TestBase {
     }
 
     public void log(String msg) {
-        extentTest.info("msg");
+        extentTest.info(msg);
     }
     public void pass(String msg) {
         extentTest.pass(msg);
