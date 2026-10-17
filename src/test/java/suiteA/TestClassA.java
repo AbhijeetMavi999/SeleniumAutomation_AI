@@ -1,15 +1,16 @@
 package suiteA;
 
+import dataprovider.TestDataProvider;
 import org.testng.annotations.Test;
 import testbase.TestBase;
 
-import static org.testng.Reporter.log;
-
 public class TestClassA extends TestBase {
 
-    @Test
-    public void testA() {
-        super.log("Starting Test A");
-        super.log("Ending Test A");
+    @Test(dataProviderClass = TestDataProvider.class, dataProvider = "dataProviderSuiteA")
+    public void testA(String args1, String args2) {
+        System.out.println("Starting Test A");
+        System.out.println("USERNAME --> "+args1);
+        System.out.println("PASSWORD --> "+args2);
+        System.out.println("Ending Test A");
     }
 }

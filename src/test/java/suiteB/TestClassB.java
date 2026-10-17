@@ -1,5 +1,6 @@
 package suiteB;
 
+import dataprovider.TestDataProvider;
 import org.testng.annotations.Test;
 import testbase.TestBase;
 
@@ -7,7 +8,7 @@ import static org.testng.Reporter.log;
 
 public class TestClassB extends TestBase {
 
-    @Test
+    @Test(dataProviderClass = TestDataProvider.class, dataProvider = "dataProviderSuiteB")
     public void testB() {
         log("Starting Test B");
         log("Ending Test B");

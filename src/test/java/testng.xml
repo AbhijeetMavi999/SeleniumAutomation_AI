@@ -1,4 +1,9 @@
 <suite name="TestNG Suite">
+
+    <listeners>
+        <listener class-name="listeners.CustomListener"></listener>
+    </listeners>
+
     <test thread-count="6" name="TestClasses">
         <classes>
             <class name="suiteA.TestClassA"/>
