@@ -1,17 +1,17 @@
 <suite name="TestNG Suite">
 
     <listeners>
-        <listener class-name="listeners.CustomListener"></listener>
+        <listener class-name="testng.listeners.CustomListener"></listener>
     </listeners>
 
     <test thread-count="6" name="TestClasses">
         <classes>
-            <class name="suiteA.TestClassA"/>
-            <class name="suiteA.TestClassAA"/>
-            <class name="suiteB.TestClassB"/>
-            <class name="suiteB.TestClassBB"/>
-            <class name="suiteC.TestClassC"/>
-            <class name="suiteC.TestClassCC"/>
+            <class name="testng.suiteA.TestClassA"/>
+            <class name="testng.suiteA.TestClassAA"/>
+            <class name="testng.suiteB.TestClassB"/>
+            <class name="testng.suiteB.TestClassBB"/>
+            <class name="testng.suiteC.TestClassC"/>
+            <class name="testng.suiteC.TestClassCC"/>
         </classes>
     </test>
 </suite>

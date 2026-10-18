@@ -1,4 +1,4 @@
-package dataprovider;
+package testng.dataprovider;
 
 // Creating separate Data Provider for Each Test Suite
 // External Data Source - JSON, Excel, YAML, XML

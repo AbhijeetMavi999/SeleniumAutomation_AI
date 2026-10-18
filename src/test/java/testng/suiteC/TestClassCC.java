@@ -1,7 +1,7 @@
-package suiteC;
+package testng.suiteC;
 
 import org.testng.annotations.Test;
-import testbase.TestBase;
+import testng.testbase.TestBase;
 
 import static org.testng.Reporter.log;
 

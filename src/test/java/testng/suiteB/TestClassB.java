@@ -1,8 +1,8 @@
-package suiteB;
+package testng.suiteB;
 
-import dataprovider.TestDataProvider;
+import testng.dataprovider.TestDataProvider;
 import org.testng.annotations.Test;
-import testbase.TestBase;
+import testng.testbase.TestBase;
 
 import static org.testng.Reporter.log;
 
