@@ -4,14 +4,15 @@
         <listener class-name="testng.listeners.CustomListener"></listener>
     </listeners>
 
-    <test thread-count="6" name="TestClasses">
+    <test thread-count="1" name="TestClasses">
         <classes>
-            <class name="testng.suiteA.TestClassA"/>
-            <class name="testng.suiteA.TestClassAA"/>
-            <class name="testng.suiteB.TestClassB"/>
-            <class name="testng.suiteB.TestClassBB"/>
-            <class name="testng.suiteC.TestClassC"/>
-            <class name="testng.suiteC.TestClassCC"/>
+                <class name="seleniumintro.webelements.LocatorsDemo"></class>
+<!--            <class name="testng.suiteA.TestClassA"/>-->
+<!--            <class name="testng.suiteA.TestClassAA"/>-->
+<!--            <class name="testng.suiteB.TestClassB"/>-->
+<!--            <class name="testng.suiteB.TestClassBB"/>-->
+<!--            <class name="testng.suiteC.TestClassC"/>-->
+<!--            <class name="testng.suiteC.TestClassCC"/>-->
         </classes>
     </test>
 </suite>
