@@ -6,7 +6,7 @@
 
     <test thread-count="1" name="TestClasses">
         <classes>
-                <class name="seleniumintro.webelements.LocatorsDemo"></class>
+                <class name="seleniumintro.waits.HardCodeWait"></class>
 <!--            <class name="testng.suiteA.TestClassA"/>-->
 <!--            <class name="testng.suiteA.TestClassAA"/>-->
 <!--            <class name="testng.suiteB.TestClassB"/>-->
