@@ -16,7 +16,7 @@ public class FindAllBrokenLinksOnWebPage {
     WebDriver driver;
 
     @Test
-    public void findBrokenLinksTest() {
+        public void findBrokenLinksTest() {
         List<WebElement> allLinks = driver.findElements(By.tagName("a"));
         System.out.println("Total anchor tag available is: "+allLinks.size());
 

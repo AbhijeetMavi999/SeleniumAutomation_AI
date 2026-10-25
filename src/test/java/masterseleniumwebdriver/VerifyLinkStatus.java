@@ -26,6 +26,7 @@ public class VerifyLinkStatus {
                 connection.connect();
 
                 if (connection.getResponseCode() != 200) {
+                    System.out.println(link + " : "+connection.getResponseMessage() + " : "+connection.getResponseCode());
                     invalidLinkCount++;
                 }
             } catch (Exception e) {
